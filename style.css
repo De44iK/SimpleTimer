@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+
+}
+
+body{
+    height: inherit;
+    display: block;
+}
+.wrapper{
+    background: linear-gradient(45deg, rgb(120, 187, 210), lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+button{
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 105px;
+}
+
+.mainButtons-up,
+.mainButtons-down {
+    background-image: url("Resources/Daco_5265938.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 105px;
+    height: 20px;
+}
+
+.mainButtons-down {
+    transform: rotate(180deg);
+}
+label{
+    font-size: 80px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(87, 118, 244);
+    transition: background-color 0.4s ease;
+
+}
